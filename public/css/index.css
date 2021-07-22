@@ -8,6 +8,10 @@ body {
   align-items: center;
   justify-content: center;
   font-family: "Roboto", sans-serif;
+  background-image: url("../images/chat.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .card {
@@ -20,7 +24,11 @@ body {
 
 .img-left {
   width: 45%;
-  background: url("../images/coffee.jpg") center;
+  /* background: url("../images/coffee.jpg") center;
+  background-size: cover; */
+  background-image: url("../images/bot.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -81,4 +89,23 @@ h2 {
 }
 .fa {
   color: #333744;
+}
+
+@media (max-width: 575.98px) {
+  .title {
+    margin-bottom: 5px;
+  }
+  .form-input {
+    margin-bottom: -10px;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .title {
+    margin-bottom: 5px;
+  }
+  .form-input {
+    margin-bottom: -10px;
+  }
 }
