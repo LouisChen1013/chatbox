@@ -1,6 +1,6 @@
-# Expense Tracker
+# chatbox
 
-ChatBox is a live chat app used for instant messaging. Members of a chat room share messages, location, and presence information with each other. The goal of this app is to provide an easy-to-use interface for users to chat/work with their teams.
+ChatBox is an online communication plateform that allows you and your website visitors to have text-based conversations via the web. It provides real-time message and location exchange services. The goal of this app is to provide an easy-to-use interface for users to chat/work with their teams.
 
 Live Demo can be view at <https://lou-chatbox-app.herokuapp.com/>
 
